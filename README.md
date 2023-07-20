@@ -1,5 +1,3 @@
-Sure, here's a simple README.md template you can use:
-
 ---
 
 # WebGL Art Gallery
@@ -8,7 +6,7 @@ Welcome to our WebGL-based Art Gallery! This project leverages the power of Lexi
 
 ## Features
 
-- **Dynamic Art Gallery**: Utilizes Lexica's APIs to dynamically populate the gallery with artworks based on user's search keywords.
+- **Dynamic Art Gallery**: Utilizes Lexica's APIs to dynamically populate the gallery with artworks based on the user's search keywords.
 - **NPC Gallery Environment**: Experience the gallery in a more immersive and interactive way with Non-Player Characters populating the environment.
 - **Custom Character Creation**: The ability for users to add their own custom characters made using [Ready Player Me](https://readyplayer.me/).
 - **Asset Bundles**: Leverages Unity's Asset Bundles for efficient on-demand content loading and updates.
@@ -31,9 +29,9 @@ git clone https://github.com/<username>/<repo-name>.git
 
 ## API Reference
 
-We use Lexica's APIs to fetch artworks based on user's search keywords. 
+We use Lexica's APIs to fetch artwork based on the user's search keywords. 
 
-For details, please refer to Lexica's [API Documentation](#).
+For details, please refer to Lexica's [[API Documentation](https://lexica.art/docs)](#).
 
 ## Contribution
 
@@ -45,4 +43,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-Please replace all placeholder URLs with actual ones in the template. Note that this is a simple README and depending on the complexity of your project you might want to expand it with sections like "Prerequisites", "Installation", "Running Tests", "Deployment", "Built With", "Versioning", "Authors", etc. 
