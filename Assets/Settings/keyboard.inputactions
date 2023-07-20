@@ -1,0 +1,66 @@
+{
+    "name": "keyboard",
+    "maps": [
+        {
+            "name": "Keys",
+            "id": "38824105-9eb4-4a2d-946d-36282c2e0e2f",
+            "actions": [
+                {
+                    "name": "key",
+                    "type": "Button",
+                    "id": "162a2a8f-b001-47d6-9502-b2f5b514b269",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "clicks",
+                    "type": "Button",
+                    "id": "4a4c5f52-ea37-414b-8759-adef1f6b29db",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b400ebfb-7c7a-4371-8fbf-f951c9dad85f",
+                    "path": "<Keyboard>/e",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "key",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b8a2a12-026f-41ca-ad70-2feb1e164f29",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "clicks",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

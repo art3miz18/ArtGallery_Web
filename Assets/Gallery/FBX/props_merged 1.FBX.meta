@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: cc7a28bebd548a2488b28a999c335def
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Bowl_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 616a15f97bff1c9449b7107e295f9852, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Bust_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: c46c1a43e8eae84499717f2155031276, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Candle_Holder_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 316eed2f48e4e3d4fbcfe59667b01a10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Chalice_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: a5098952b24d84c41934d50be7f8121a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Chalice_02a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: fd1d389f93ceb9f4cb93967f41a22a1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Clay_Pitcher_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 47ca711993debab42a341d33cc203b1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Clay_Pot_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: f2cac53534ca0db44b092aec3fb304b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Clay_Pot_02a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 71220c51a4621124f8441210e8686e37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Concrete_Plant_Pot_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 18841cfdc104b114eab1c8fc439ef519, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Crown_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 2e4cf0d7b9d8d6f4dbfc53c125a91302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Dagger_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 6e53fa4bb665422478e1b38e758612ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Female_Bust_Statuette_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: c6499fe2c8a810643b8e364761405ef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Female_Bust_Statuette_02a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: f4281ef93f611f14e8ce7c8119512860, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Figurine_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: bbab0528838e80e4697664c624febc76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Geode_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 066c48ec729c67d4ba7c86cce43f6c77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Japanese_Antique_Kannon_Statue_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: fd7c69bf750682c439483b9035b30ed6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Large_Clay_Jug_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 97c5e2d75ee7beb41862c9b62ef5050e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Statue_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 09df4466c5d130f4b891e45a3db08fbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Statue_02a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 73b50c711a8680042b33f146fd2bac53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Statue_03a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 48a388ac063626b43b460b2516ec2786, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Statue_08a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 95c4f7faf22fd974c9e407b1ecc8dd0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Statue_09a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 17746bd132b8e294cac50a370385d03b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Urn_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: f9a7f2162a802084d8a42c6f01198d27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Urn_02a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 9bfb238ec43cc314593506975f72afc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_M_props_merged_MI_Water_Pot_01a_54EA19394E468B58B02BDAAA1013B77A
+    second: {fileID: 2100000, guid: 4c742345756325e4ca2aab726caf4a50, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
