@@ -15,7 +15,7 @@ Welcome to our WebGL-based Art Gallery! This project leverages the power of Lexi
 
 1. Clone the repository
 ```
-git clone https://github.com/<username>/<repo-name>.git
+git clone https://github.com/art3miz18/ArtGallery_Web.git
 ```
 2. Open the project in Unity
 3. Build the project for WebGL
