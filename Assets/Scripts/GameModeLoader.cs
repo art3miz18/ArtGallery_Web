@@ -1,5 +1,6 @@
 //AG_3 win= https://pressions.art:5000/assets/skyverseAssets/6f911eb8319560de1c3f0ad00
 //AG_3 webGl = https://pressions.art:5000/assets/skyverseAssets/6f911eb8319560de1c3f0ad01
+//spatial url  - https://cdn.spatial.io/assets/v1/unity-assets/packBundle-20-production/647e543cbfa8b8e3445f7834/Unity/Space/647e6afdb4856aa6d8fabd2f/20/bundles/WEB_UNITY/r/3c9358d47810472c1bb9c8fd33e947811f43b06e80d1cc0a337c617427eb5e01/1689687512
 using System;
 using System.IO;
 using System.Collections;

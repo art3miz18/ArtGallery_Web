@@ -14,7 +14,7 @@ using System.Runtime.InteropServices;
 public class ArtworkLoader : MonoBehaviour
 {
     [DllImport("__Internal")]
-    private static extern void OpenModal(string imageUrl);
+    private static extern void OpenModal(string imageUrl ,string header, string details);
     public static ArtworkLoader instance;
     public string[] paintingGenre;
     public List<KeyValuePair<string, string>> Units;   
@@ -343,8 +343,12 @@ public class ArtworkLoader : MonoBehaviour
                 else if (Application.platform == RuntimePlatform.WebGLPlayer)
                 {
                     string url = _artworkTrigger.Src;
+                    string title = _artworkTrigger.Description;
+                    string desc = _artworkTrigger.Name;
+
                         if(url!= null){
-                            OpenModal(url);
+                            OpenModal(url,title,desc);
+                            Debug.Log(" data sent from unity "+url + title + desc);
                         }                    
                 } 
                 

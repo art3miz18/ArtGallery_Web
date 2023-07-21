@@ -33,27 +33,20 @@ public class CursorManager : MonoBehaviour
 
     private void Start() {
         GallerySystem = FindObjectOfType<ArtworkLoader>(); 
-        Addressables.LoadAssetAsync<GameObject>("Assets/ArtGallery - 3/NPC/Characater/locoMotionPlane.prefab").Completed += OnLoadDone;
-        mainCam = Camera.main; 
-        hotSpot = new Vector2 (cursorTexture[0].width / 2, cursorTexture[0].height / 2);      
-        SetCursorTexture(cursorTexture[0]);
-        
+        OnLoadDone(GameManager.Instance.LocomotionObjPlane);
+        mainCam = Camera.main;         
         characterController = GetComponent<CharacterController>();
         pd = GameManager.Instance.paintingDetails.GetComponent<PaintingDetails>();
     }    
     private void UpdateCursorState() {
         if (IsMouseOverUI()) {
             currentCursorState = CursorState.OverUI;
-            // SetCursorTexture(cursorTexture[2]);
         } else if (IsMouseOverPainting()) {
             currentCursorState = CursorState.OverPainting;
-            // SetCursorTexture(cursorTexture[1]);
         } else if (IsMouseOverGround()) {
             currentCursorState = CursorState.OverGround;
-            // SetCursorTexture(cursorTexture[1]);
         } else {
             currentCursorState = CursorState.Idle;
-            // SetCursorTexture(cursorTexture[0]);
         }
     }
     private bool IsMouseOverUI() {
@@ -164,16 +157,12 @@ public class CursorManager : MonoBehaviour
             cg.DOFade(0, 0.2f);
         }
     }
-    private void OnLoadDone(AsyncOperationHandle<GameObject> obj)
-    {
-        if (obj.Status == AsyncOperationStatus.Succeeded)
-        {
-            GameObject locomotionObject = obj.Result;
-            // Instantiate the loaded prefab
-            GameObject ob = Instantiate(locomotionObject, Vector3.zero, Quaternion.identity);
+    //load locomotion plane directly here avoid addressables currently 
+    private void OnLoadDone(GameObject prefab)
+    {            // Instantiate the loaded prefab
+            GameObject ob = Instantiate(prefab, Vector3.zero, Quaternion.identity);
             locomotionObj = ob;
-            locoMat = locomotionObj.GetComponent<MeshRenderer>().material;
-        }
+            locoMat = locomotionObj.GetComponent<MeshRenderer>().material;        
     }
     void OnEnable(){
         StarterAssetsInputs._mouseState += HandleMouseEvents;

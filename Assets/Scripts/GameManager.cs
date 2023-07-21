@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject playerPrefab; // Assign your player prefab in the Inspector
     public Vector3 spawnLocation; // Assign where you want to spawn the player in the Inspector
     public CinemachineVirtualCamera vcam;
-    public GameObject _mPlayer ,paintingDetails, _SceneLoader;
+    public GameObject _mPlayer ,paintingDetails, _SceneLoader, LocomotionObjPlane;
     GameObject childTarget;
     public RawImage GallerySelector,_painting;
     public TMP_Text categoryName,NextCategoryName,PaintingName;    

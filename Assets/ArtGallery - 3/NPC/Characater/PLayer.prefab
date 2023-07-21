@@ -239,14 +239,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RayDistance: 10
-  cursorTexture:
-  - {fileID: 2800000, guid: f5c0bb3a2e3574e47abbdb43307f544b, type: 3}
-  - {fileID: 2800000, guid: 489b46db36820444585d53ff011c4f5e, type: 3}
-  - {fileID: 2800000, guid: c23e91101277ef3459c6f14dbb5ec4e6, type: 3}
+  cursorTexture: []
   FocusObject: {fileID: 0}
   mainCam: {fileID: 0}
   _cursorPosition: {x: 0, y: 0}
   GallerySystem: {fileID: 0}
   locomotionObj: {fileID: 0}
-  paintingDetails: {fileID: 0}
   initialScale: {x: 0.17, y: 0.17, z: 0.17}

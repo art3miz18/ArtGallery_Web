@@ -122,12 +122,10 @@ namespace StarterAssets
 			Cursor.lockState = newState ? CursorLockMode.Locked : CursorLockMode.None;
 		}
 		private void PressedInput(bool dragging){
-			cms.SetCursorTexture(cms.cursorTexture[2]);
 			StartCoroutine(Dragging());
 			drag = dragging;
 			if(dragging == false){
 				drag = false;
-				cms.SetCursorTexture(cms.cursorTexture[0]);
 			}
 		}
 		private void CursorPosition(Vector2 mousePosition){
@@ -137,7 +135,6 @@ namespace StarterAssets
 		private void Mousetap(bool currentState){
 			if(drag == false){
 				cms.RaycastTrigger();
-				cms.SetCursorTexture(cms.cursorTexture[1]);
 				StartCoroutine(HideAfterDelay());			
 			}
 		}
@@ -145,7 +142,6 @@ namespace StarterAssets
 		private IEnumerator HideAfterDelay() 
 		{
 			yield return new WaitForSeconds(0.15f);
-			cms.SetCursorTexture(cms.cursorTexture[0]);			
 		}	
 		
 		private void Update(){
